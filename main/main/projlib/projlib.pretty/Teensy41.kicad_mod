@@ -1123,7 +1123,7 @@
 	)
 	(model "${KIPRJMOD}/projlib/projlib.pretty/Teensy_4.1_Assembly.STEP"
 		(offset
-			(xyz 0 0 5.762)
+			(xyz 0 0 11)
 		)
 		(scale
 			(xyz 1 1 1)
