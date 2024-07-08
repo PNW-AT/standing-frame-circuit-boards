@@ -1,4 +1,4 @@
-23597413209911394
+23593974236228363
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96369,6 +96369,13 @@ Varistor VF
 2
 2
 projlib
+CD74HC147E
+
+CD74HC147E 
+0
+16
+16
+projlib
 CON_702463001_MOL_molex2x15
 
 702463001 
@@ -96376,37 +96383,16 @@ CON_702463001_MOL_molex2x15
 30
 30
 projlib
-Molex_SL_171971-0002_1x02_P2.54mm_Vertical
-Molex Stackable Linear Connector, 171971-0002 (compatible alternatives: 171971-0102, 171971-0202), 2 Pins per row (https://www.molex.com/pdm_docs/sd/1719710002_sd.pdf), generated with kicad-footprint-generator
-connector Molex SL vertical
-0
-2
-2
-projlib
-Molex_SL_171971-0003_1x03_P2.54mm_Vertical
-Molex Stackable Linear Connector, 171971-0003 (compatible alternatives: 171971-0103, 171971-0203), 3 Pins per row (https://www.molex.com/pdm_docs/sd/1719710002_sd.pdf), generated with kicad-footprint-generator
-connector Molex SL vertical
-0
-3
-3
-projlib
-Molex_SL_171971-0005_1x05_P2.54mm_Vertical
-Molex Stackable Linear Connector, 171971-0005 (compatible alternatives: 171971-0105, 171971-0205), 5 Pins per row (https://www.molex.com/pdm_docs/sd/1719710002_sd.pdf), generated with kicad-footprint-generator
-connector Molex SL vertical
-0
-5
-5
-projlib
-Teensy41
+KP0215ASAKG03RGBP-1FJB
 
 
 0
-59
-59
+10
+6
 projlib
-pololu4085
+pololu4964_3.3v
 
 
 0
-3
-3
+4
+4
