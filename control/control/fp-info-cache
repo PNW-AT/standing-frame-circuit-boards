@@ -1,4 +1,4 @@
-23595694724487197
+23600856864892635
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96396,6 +96396,27 @@ KP0215ASAKG03RGBP-1FJB
 0
 10
 6
+projlib
+LP4EE1PBCTW
+LP4EE1PBCTW-2
+Switch
+0
+8
+8
+projlib
+R20405RN02Q
+
+
+0
+10
+10
+projlib
+TO-92_Inline
+TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+3
+3
 projlib
 pololu4964_3.3v
 
