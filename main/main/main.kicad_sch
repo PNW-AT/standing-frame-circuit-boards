@@ -3,7 +3,14 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "ab47a88c-4e7b-4d2a-8992-259f4c293a97")
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "main PCB for standing frame")
+		(date "2024-07-10")
+		(rev "v1.0")
+		(company "PNW Assistive Technology")
+		(comment 1 "Joshua Phelps")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint_2Pole"
 			(pin_names
@@ -4015,7 +4022,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 63.5) (xy 95.25 63.5)
+			(xy 106.68 63.5) (xy 96.52 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4215,16 +4222,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 63.5) (xy 95.25 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ecdd978-91b0-43c7-abe0-784acdf56c78")
-	)
-	(wire
-		(pts
 			(xy 91.44 57.15) (xy 106.68 57.15)
 		)
 		(stroke
@@ -4365,7 +4362,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 77.47) (xy 106.68 77.47)
+			(xy 127 77.47) (xy 106.68 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5335,7 +5332,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 66.04) (xy 106.68 66.04)
+			(xy 95.25 66.04) (xy 106.68 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5625,6 +5622,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 66.04) (xy 95.25 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daac3aec-6f84-4997-81fb-df5b93503bfb")
+	)
+	(wire
+		(pts
 			(xy 97.79 81.28) (xy 106.68 81.28)
 		)
 		(stroke
@@ -5655,7 +5662,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 92.71) (xy 96.52 66.04)
+			(xy 96.52 63.5) (xy 96.52 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6049,22 +6056,22 @@
 	)
 	(global_label "3.3v_encoder"
 		(shape bidirectional)
-		(at 105.41 77.47 180)
+		(at 127 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6f83dcbf-62e3-4fa1-9c8f-fa76e0c59ad5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.8555 77.47 0)
+			(at 143.5545 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
