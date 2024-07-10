@@ -303,6 +303,46 @@
 		(uuid "d2f6e813-3654-47b7-a12b-504d97861a48")
 	)
 	(fp_line
+		(start 20.193 0)
+		(end 20.701 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8c5833b4-b3a7-4ed8-8d1c-ad72d6db810a")
+	)
+	(fp_line
+		(start 20.701 -0.508)
+		(end 20.701 0.508)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "99811360-3876-48a7-8455-fc6862acbd9a")
+	)
+	(fp_line
+		(start 20.701 0)
+		(end 21.209 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fb94255d-2623-4def-9558-4cc90e837121")
+	)
+	(fp_line
+		(start 20.701 0.508)
+		(end 20.701 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5519b207-7379-446b-b09b-235992ecdc8a")
+	)
+	(fp_line
 		(start 29.21 -5.08)
 		(end 29.21 5.08)
 		(stroke
@@ -396,7 +436,7 @@
 		)
 	)
 	(fp_text user "Micro SD"
-		(at 24.13 0 0)
+		(at 24.13 5.08 0)
 		(layer "F.SilkS")
 		(uuid "665cbf82-f751-41d8-a010-a54b4becdc37")
 		(effects
@@ -880,7 +920,7 @@
 	)
 	(model "${KIPRJMOD}/projlib/projlib.pretty/Teensy_4.1_Assembly.STEP"
 		(offset
-			(xyz 0 0 7)
+			(xyz 0 0 7.5)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -891,7 +931,18 @@
 	)
 	(model "${KIPRJMOD}/projlib/projlib.pretty/CES-150-02-T-S cut to 24.STEP"
 		(offset
-			(xyz 0 -8 0)
+			(xyz 0 -7.62 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -180)
+		)
+	)
+	(model "${KIPRJMOD}/projlib/projlib.pretty/CES-150-02-T-S cut to 24.STEP"
+		(offset
+			(xyz 0 7.62 0)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -900,15 +951,26 @@
 			(xyz -90 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/projlib/projlib.pretty/CES-150-02-T-S cut to 24.STEP"
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x24_P2.54mm_Vertical.step"
 		(offset
-			(xyz 0 7.5 0)
+			(xyz 29.2 -7.62 7.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz 0 180 90)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x24_P2.54mm_Vertical.step"
+		(offset
+			(xyz 29.2 7.62 7.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 90)
 		)
 	)
 )
