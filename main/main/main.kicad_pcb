@@ -129,7 +129,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../gerbers for main pcb for standing frame v1.0/")
+			(outputdirectory "../../control/gerbers for control pcb for standing frame v1.0/")
 		)
 	)
 	(net 0 "")
@@ -10206,18 +10206,6 @@
 				(thickness 0.15)
 			)
 			(justify left)
-		)
-	)
-	(gr_text "WayWayWay"
-		(at 118.237 72.644 0)
-		(layer "F.SilkS")
-		(uuid "7eec1df0-e61c-48bb-ac91-46742e1ab628")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.15)
-			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "right \nmove"
