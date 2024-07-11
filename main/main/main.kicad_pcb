@@ -129,7 +129,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../../control/gerbers for control pcb for standing frame v1.0/")
+			(outputdirectory "../gerbers for main pcb for standing frame v1.0/")
 		)
 	)
 	(net 0 "")
@@ -724,7 +724,7 @@
 		(uuid "05b37393-cf6a-4f03-b53b-f40bd13001b0")
 		(at 105.41 67.183 90)
 		(property "Reference" "U2"
-			(at -0.635 -1.27 90)
+			(at -0.635 -1.27 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "33263e69-a96d-464b-a64d-dd0dc96c1527")
@@ -9817,6 +9817,7 @@
 		(property "Reference" "BT1"
 			(at 1.524 -1.778 -90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "852b2c9e-7702-4094-9e50-75a87a199bd9")
 			(effects
 				(font
@@ -10173,7 +10174,7 @@
 		)
 	)
 	(gr_text "right\nhand"
-		(at 146.558 101.6 0)
+		(at 145.542 101.346 0)
 		(layer "F.SilkS")
 		(uuid "312d4a55-62fc-4a02-8e75-70efd7661625")
 		(effects
@@ -10209,7 +10210,7 @@
 		)
 	)
 	(gr_text "right \nmove"
-		(at 168.91 101.6 0)
+		(at 169.799 101.219 0)
 		(layer "F.SilkS")
 		(uuid "866c1219-9801-47c4-a846-2a73b8889218")
 		(effects
@@ -10221,7 +10222,7 @@
 		)
 	)
 	(gr_text "left \nmove"
-		(at 107.696 101.6 0)
+		(at 107.188 100.584 0)
 		(layer "F.SilkS")
 		(uuid "a1b4e2c8-0886-4bd5-bdc6-a27898a5e94a")
 		(effects
@@ -10233,7 +10234,7 @@
 		)
 	)
 	(gr_text "left\nhand\n\n"
-		(at 130.048 102.87 0)
+		(at 131.318 102.616 0)
 		(layer "F.SilkS")
 		(uuid "cc3ff482-e0a9-4ecc-b02e-057f3c067f37")
 		(effects
