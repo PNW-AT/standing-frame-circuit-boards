@@ -1,1 +1,1 @@
-https://github.com/PNW-AT/standing-frame-circuit-boards
+PCB CAD for the user interface panel

@@ -52,7 +52,9 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|148068001|51709001|2457208c-2132-47e3-a339-88bdcfad36d9|820db15f-d483-4d3d-b4f3-0f069eacd9da"
+      ],
       "meta": {
         "version": 2
       },
@@ -468,7 +470,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../gerbers for control pcb for standing frame v1.0/",
+      "plot": "../gerbers for control pcb for standing frame v1.4/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
